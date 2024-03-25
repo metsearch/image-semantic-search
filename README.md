@@ -1,6 +1,6 @@
 ## Image semantic search
 
-This project uses a fashion dataset available on `hugging_face` ans `sentence_transformers` library to create a basic image semantic search.
+This project uses a fashion dataset available on `huggingface` ans `sentence_transformers` library to create a basic image semantic search.
 
 <p align="center">
   <img src="./examples/example.png">
