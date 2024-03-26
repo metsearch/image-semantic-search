@@ -65,9 +65,9 @@ def search(path2data):
     
     query = input('Query: ')
     query_embedding = model.encode(query)
-    results = util.semantic_search(query_embedding, embeddings, top_k=15)[0]
+    results = util.semantic_search(query_embedding, embeddings, top_k=25)[0]
     
-    _, axes = plt.subplots(3, 5, figsize=(10, 4))
+    _, axes = plt.subplots(5, 5, figsize=(12, 8))
     for i, ax in enumerate(axes.flat):
         ax.imshow(fashion_images[results[i]['corpus_id']])
         ax.axis('off')

@@ -5,7 +5,7 @@ This project uses a fashion dataset available on `huggingface` ans `sentence_tra
 <p align="center">
   <img src="./examples/example.png">
   <h6 align="center">
-    A query example (query: "blue pants for man")
+    A query example (query: "blue jeans for men")
   </h6>
 </p>
 
