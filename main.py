@@ -76,6 +76,3 @@ def search(path2data):
 
 if __name__ == '__main__':
     router_cmd(obj={})
-
-if __name__ == '__main__':
-    logger.info('Processing...')
